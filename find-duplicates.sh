@@ -5,4 +5,4 @@
 #part 4
 #Part 5: Removes anything in the file with a 1 
 grep -v Species $1 | cut -d , -f 2 | sort | uniq -c | grep -v 1 
- 
+TRIAL
